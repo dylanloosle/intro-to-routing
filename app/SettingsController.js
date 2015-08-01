@@ -1,3 +1,4 @@
-app.controller('SettingsController', function(){
-
+var app = angular.module('app');
+app.controller('SettingsController', function($scope){
+    $scope.Test="This is working";
 });
